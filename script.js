@@ -2,6 +2,7 @@
 	// let body = document.getElementByTagName('body');
 	let button = document.getElementById('enterBtn');
 	let para = document.getElementByTagName('p');
+	let body = document.getElementByTagName('body');
     button.addEventListner("click",function() {
 	let h1Tag = body.createElement("h1");
 	let h1Tag.id = "status"
